@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+/* base styles */
+
+* {
+  margin: 0;
+  font-family: "Poppins";
+  color: #0a043c;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #0a043c;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #11698e;
+}
+
+.content {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog preview / lists */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: #11698e;
+  margin-bottom: 8px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #03506f;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #03506f;
+  color: #fff;
+  border: 0;
+  padding: 0.5em 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #0a043c;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #0a043c;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* not-found page */
+
+.not-found {
+  text-align: center;
+  justify-content: center;
+ 
+}
+.not-found h1{
+  text-align: center;
+  margin-top: 20%;
+  font-size: 100px;
+  font-weight: 700;
+  color: #03506f;
+}
+
+.not-found p{
+  font-size: 24px;
+  color: #0a043c;
+}
+
+.not-found a{
+  text-decoration: none;
+}
+
+.not-found-button{
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 0.6em;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.not-found-button:hover {
+  box-shadow: 0 0 40px 40px #03506f inset;
+}
